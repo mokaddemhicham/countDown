@@ -141,13 +141,95 @@ button:hover{
 
 @media (max-width: 611px){
     .minutes , .secondes{
-        width: 150px;
-        height: 150px;
-        line-height: 144px;
+        width: 140px;
+        height: 140px;
+        line-height: 134px;
     }
     .dots{
         width: 100px;
         height: 150px;
         line-height: 130px;
+    }
+}
+@media (max-width: 422px){
+    .minutes , .secondes{
+        width: 100px;
+        height: 100px;
+        line-height: 94px;
+        font-size: 45px;
+    }
+    .dots{
+        width: 20px;
+        height: 40px;
+        margin: 0 15px;
+        line-height: 80px;
+    }
+    .minuteName , .secondeName{
+        margin-top: 10px;
+        font-size: 20px;
+        color: #aaa;
+    }
+    .copyright{
+        width: 200px;
+        text-align: center; 
+    }
+    .row:last-of-type{
+        padding: 10px 0 0 0;
+    }
+    .title-countdown h2{
+        font-size: 25px;
+        color: rgb(250, 33, 33);
+    }
+    .title-countdown h2 span{
+        display: inline-block ;
+        color: #fff;
+        background-color:  rgb(250, 33, 33);
+        padding: 0 5px;
+    }
+    button{
+        background: none;
+        color: #fff;
+        background-color: #fa2121;
+        border: 1px solid #fa2121;
+        outline: none;
+        padding: 5px 10px;
+    }
+    .copyright a{
+        text-decoration: none;
+        color: #aaa;
+    }
+    .sm ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0 5px;
+    }
+    .sm ul li a{
+        color: #a3a3a3;
+        font-size: 15px;
+    }
+    .sm ul li a i{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #a3a3a3;
+        border-radius: 50%;
+        line-height: 28px;
+        text-align: center;
+    }
+    .sm ul li:first-of-type a i{
+        color: #4267B2;
+        border-color: #4267B2;
+    }
+    .sm ul li:nth-of-type(2) a i{
+        color: #e1306c;
+        border-color: #e1306c;
+        
+    }
+    .sm ul li:nth-of-type(3) a i{
+        color: #1DA1F2;
+        border-color: #1DA1F2;
+    }
+    .sm ul li:last-of-type a i{
+        color: #0072b1;
+        border-color: #0072b1;
     }
 }
