@@ -196,7 +196,7 @@ button:hover{
     }
     .copyright a{
         text-decoration: none;
-        color: #4267B2;
+        color: #4267B2 !important;
     }
     .sm ul li{
         display: inline-block;
