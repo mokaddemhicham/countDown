@@ -1,14 +1,14 @@
-let start = document.getElementById("start");
-let minutesPlace = document.querySelector(".minutes");
-let secondesPlace = document.querySelector(".secondes");
-let done = document.querySelector(".done");
-let reset = document.getElementById("reset");
-let dots = document.querySelector(".dots");
+var start = document.getElementById("start");
+var minutesPlace = document.querySelector(".minutes");
+var secondesPlace = document.querySelector(".secondes");
+var done = document.querySelector(".done");
+var reset = document.getElementById("reset");
+var dots = document.querySelector(".dots");
 start.addEventListener("click", function(){
-    let timer = document.getElementById("timer").value;
-    let secondesPass = setInterval(() => {
-        let minutes = Math.floor(timer / 60);
-        let remsecondes = timer % 60;
+    var timer = document.getElementById("timer").value;
+    var secondesPass = setInterval(() => {
+        var minutes = Math.floor(timer / 60);
+        var remsecondes = timer % 60;
         minutesPlace.innerHTML = minutes;
         secondesPlace.innerHTML = remsecondes;
         if(minutes < 10){
